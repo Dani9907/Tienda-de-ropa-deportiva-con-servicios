@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recibe</title>
+	<link rel="stylesheet" href="./Estilos/styles.css">
+</head>
+<body>
+    <h1>Datos en la Tabla</h1>
+    <table border='1'>
+        <thead>
+            <tr>
+                <th>Nombres y Apellidos del cliente</th>
+                <th>Correo electrónico</th>
+                <th>Número de celular</th>
+                <th>Servicio que solicita</th>
+            </tr>
+        </thead>
+        <tbody id="tablaDatos">
+        </tbody>
+    </table>
+
+    <script>
+        // Obtiene los parámetros de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+		
+		const ctnombre = urlParams.get('nombres_apellidos');
+		const ctcorreo = urlParams.get('correo');
+        const ctcelular = urlParams.get('celular');
+        const ctservicio = urlParams.get('servicio');
+
+        // Crea una nueva fila en la tabla y muestra los datos
+        var tabla = document.getElementById("tablaDatos");
+        var fila = tabla.insertRow();
+        var celdaNombre = fila.insertCell(0);
+        var celdaCorreo = fila.insertCell(1);
+        var celdaCelular = fila.insertCell(2);
+        var celdaServicio = fila.insertCell(3);
+        celdaNombre.textContent = ctnombre;
+        celdaCorreo.textContent = ctcorreo;
+        celdaCelular.textContent = ctcelular;
+        celdaServicio.textContent = ctservicio;
+    </script>
+</body>
+</html>
+

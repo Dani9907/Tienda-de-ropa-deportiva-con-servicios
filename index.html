@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Pagina deportiva</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./Estilos/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda De Ropa Deportiva</h1>
+    </header>
+    
+    <div
+    class="container-title">Tenis</div>
+    <main>
+        <div class="container-img">
+            <!--<img src="https://i.pinimg.com/564x/30/66/3b/30663b1a7ce7b7e30df0c12dffc33142.jpg" alt="">-->
+			<img src="./imagenes/30663b1a7ce7b7e30df0c12dffc33142.jpg" alt="">
+        </div>
+        <div 
+        class="container-info-product">
+            <div 
+            class="container-price">
+                <span>$120.000</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <div 
+            class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">color
+                    </label>
+                    <select name="colour" 
+                    id="colour">
+                        <option disabled
+                        selected value="">
+                        escoge una opción
+                        </option>
+                        <option value="negro">negro
+                        </option>
+                        <option value="blanco">blanco
+                        </option>
+                        <option value="beige">beige
+                        </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="size">Talla
+                    </label>
+                    <select name="size" 
+                    id="size">
+                        <option disabled
+                        selected value="">
+                        escoge una opción
+                        </option>
+                        <option value="37">37
+                        </option>
+                        <option value="38">38
+                        </option>
+                        <option value="39">39
+                        </option>
+                        <option value="40">40
+                        </option>
+                    </select>
+                    <button class="btn-clean">Limpiar 
+                    </button>
+                </div>
+
+                <div class="container-add-cart">
+                    <div class="container-quantity">
+                        <input 
+                            type="number"
+                            placeholder="1"
+                            value="1" 
+                            min="1"
+                            class="input-quantity"/>  
+                        <div 
+                        class="btn-increment-decremeent">
+                            <i class="fa-solid fa-chevron-up" id="increment"></i>
+                            <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                        </div>
+                    </div>
+                    <button class="btn-add-to-cart">
+                        <i class="fa-solid fa-plus"></i>
+                        Añadir al carrito
+                    </button>
+                </div>
+
+                <div class="container-description">
+                    <div class="title-description">
+                        <h4>Descripción</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="text-description">
+                        <p>Tenis deportivos de la marca FASHION unisex
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container-additional-information">
+                    <div class="title-additional-information">
+                        <h4>Información adicional 
+                        </h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="texto-additional-information">
+                        <p>Tenemos varios colores y tallas</p>
+                    </div>
+                </div>
+                <div class="container-reviews">
+                    <div class="title-reviews">
+                        <h4>Reseñas
+                        </h4>
+                        <i class="fa-solid fa-chevron-down "></i>
+                    </div>
+                    <div class="text-reviews hidden">
+                        <p>------------</p>
+                    </div>
+                </div>
+
+                <div class="container-social">
+                    <span>Redes Sociales</span>
+                    <div 
+                    class="container-buttons-social">
+                        <a href="https://m.facebook.com/login/?locale=es_LA"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.whatsapp.com/?lang=es_LA"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://outlook.live.com/mail/about/index_es-mx.html"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <SECTION class="container-related-products">
+        <h2>Productos Relacionados</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="./Imagenes/7722341e3ff35fa463a28b9ec38e8920.jpg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Pantaloneta - Adidas</h3>
+                        <p class="caterory">
+                            sports shorts
+                        </p>
+                    </div>
+                    <div class="price">$40.000</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./Imagenes/1680d755318a76d7c046517363c5eb5e.jpg" alt="producto-2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Camisa - under armour</h3>
+                        <p class="caterory">
+                            sports shirt
+                        </p>
+                    </div>
+                    <div class="price">$60.000</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./Imagenes/9e97ab3494c34404ec625a06a092cf5d.jpg" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Legging</h3>
+                        <p class="caterory">
+                            sports legging
+                        </p>
+                    </div>
+                    <div class="price">$55.000</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./Imagenes/4eb4404139dfa9301e6245bbe6459624.jpg" alt="producto-4">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Camisa - Nike</h3>
+                        <p class="caterory">
+                            sports shirt
+                        </p>
+                    </div>
+                    <div class="price">$45.000</div>
+                </div>
+            </div>
+        </div>
+    </SECTION>
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Presentamos los siguientes servicios:</p>
+        <ul>
+            <li>Personalización</li>
+            <li>Pedido Mayorista</li>
+            <li>Devolución</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Contáctenos -->
+    <section id="contactenos">
+        <h2>Contáctenos</h2>
+        <p>Información de contacto:</p>
+        <ul>
+            <li>WhatsApp: 3046575522</li>
+            <li>PBX: (123) 456-7890</li>
+            <li>Celular: (+57) 3113142732</li>
+            <li>Dirección:Calle 30, Cra. 43A, Medellín, Antioquia, local 204</li>
+        </ul>
+        
+        <!-- Mapa de ubicación -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2563414861747!2d-75.57152104802694!3d6.229897639642809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44284a454dc36f%3A0xd34cc3c04894a441!2sParqueadero%20Cc%20Premium%20Plaza!5e0!3m2!1ses-419!2sco!4v1698187054528!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </section>
+    
+   
+    <script src="https://kit.fontawesome.com/a6798d2a5c.js" crossorigin="anonymous"></script>
+    <script src="./Js/index.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Solicitud de Servicio</h1>
+        <nav>
+            <ul>
+                <li><a href="#SERVICIOS"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="SERVICIOS">
+        <h2></h2>
+        <form action="procesar_solicitud.php" method="post"> 
+            <label for="nombres_apellidos">Nombres y Apellidos del cliente:</label>
+            <input type="text" id="nombres_apellidos" name="nombres_apellidos" required>
+			
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="celular">Número de celular:</label>
+            <input type="text" id="celular" name="celular" pattern="[0-9]+" required>
+
+            <label for="servicio">Servicio que solicita:</label>
+            <select id="servicio" name="servicio" required>
+                <option value="Personalización">Personalización</option>
+                <option value="Pedido Mayorista">Pedido Mayorista</option>
+                <option value="Devolución">Devolución</option>
+            </select>
+
+            <div class="btn-container">
+                
+                <button type="button" class="btn-enviar" onclick="abrirNuevaVentana()">enviar datos</button>
+                <button type="button" class="btn-cancelar" onclick="window.location.href='index.html'">Cancelar</button>
+            </div>
+        </form>
+        
+    </section>
+
+    <footer>
+        <p>footer</p>
+    </footer>
+
+
+</body>
+</html>
+
+
+
+
